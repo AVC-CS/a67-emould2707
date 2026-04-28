@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23753425)
 [Assignment 6-7 Lab 6-10] (https://prezi.com/p/edit/-xdwv8fik5xk/)
 
 ## ![Assignment 6-7: Lab 6-10](https://nimbus-screenshots.s3.amazonaws.com/s/c4abf7d6ab3710be57bee5ced6c1522e.png)
