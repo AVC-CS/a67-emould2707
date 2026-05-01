@@ -5,12 +5,17 @@ int hanoi(int n, char from, char to, char aux);
 
 int hanoi(int n, char from, char to, char aux)
 {
-    static int count = 0;
-    count++;
+    
     if (n == 1) {
-        return count;
+        cout << "Move disk " << n << " from " << from << " to " << to << endl;
+        return 1;
     }
-    hanoi(n-1, from, aux, to);
-    hanoi(n-1, aux, to, from);
+    int count = 0;
+    count += hanoi(n - 1, from, aux, to);
+
+    cout << "Move disk " << n << " from " << from << " to " << to << endl;    
+    count++;
+    count += hanoi(n - 1, aux, to, from);
+
     return count;
 }
